@@ -16,26 +16,6 @@
         Copyright &copy; 2021
       </span>
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start text-xs">
-
-        <a
-          class="ml-3 "
-          href="http://twitter.com/harper"
-          target="_blank"
-        >@harper</a>
-
-        <router-link
-          :to="{ name: 'home' }"
-          class="ml-3 "
-          href="http://harper.blog"
-          target="_blank"
-        >🥺</router-link>
-
-        <router-link
-          :to="{ name: 'Assets', params: {ethRoute: 'harper.eth'} }"
-          class="ml-3 "
-        >
-          harper.eth</router-link>
-
       </span>
     </div>
   </footer>
@@ -45,28 +25,11 @@
     <nav class="level">
       <div class="level-left">
         <div class="level-item">
-          <a
-            href="https://twitter.com/harper"
-            target="_blank"
-          >
-            <b-icon
-              icon="twitter"
-              size="is-small"
-            />
-          </a>
-                    &emsp;
           <router-link :to="{ name: 'home' }">
             <span class="icon">
               🥺
             </span>
           </router-link>
-                    &emsp;
-          <router-link :to="{ name: 'Assets', params: {ethRoute: 'harper.eth'} }">
-            <span class="icon">
-              🍕
-            </span>
-          </router-link>
-                    &emsp;
         </div>
       </div>
       <div class="level-right">

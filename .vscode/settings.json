@@ -8,9 +8,8 @@
   "[scss]": { "editor.defaultFormatter": "stylelint.vscode-stylelint" },
   "[css]": { "editor.defaultFormatter": "stylelint.vscode-stylelint" },
   "editor.codeActionsOnSave": {
-    // https://github.com/microsoft/vscode-eslint/blob/master/README.md#release-notes
-    "source.fixAll.eslint": true,
-    "source.fixAll.stylelint": true
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
   },
 
   // ESLINT

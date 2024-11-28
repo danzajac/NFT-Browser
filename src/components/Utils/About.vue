@@ -9,21 +9,12 @@
       This is a very simple app using some web3 components and the opensea api.
     </p>
     <p class="block py-4">
-      Feel free to add a feature, fix something and what not on <a href="https://github.com/harperreed/art.pizza">github</a>.
+      Feel free to add a feature, fix something and what not on <a href="https://github.com/danzajac/NFT-Browser">github</a>.
 
       If you have ideas on how to make this better or worse (lol) add an issues <a
-        href="https://github.com/harperreed/art.pizza/issues"
+        href="https://github.com/danzajac/NFT-Browser/issues"
         target="_blank"
       >here</a>.
-    </p>
-    <p class="block py-4">
-      <strong>Yay!</strong> <br>
-      - <a
-        href="https://twitter.com/harper"
-        target="_blank"
-      >@harper</a> / <router-link :to="{ name: 'Assets', params: {ethRoute: 'harper.eth'} }">
-        harper.eth
-      </router-link>
     </p>
   </div>
 </template>
